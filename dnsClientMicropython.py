@@ -130,10 +130,10 @@ if __name__ == "__main__":
     
     # IMPORTANT: SET YOUR SERVER'S IP HERE if it's not localhost
     # e.g., if your server ESP8266 has IP 192.168.1.55
-    testServerIp = '192.168.1.24' # <<<< REPLACE WITH YOUR SERVER ESP8266's ACTUAL IP
+    # testServerIp = '192.168.1.24' # <<<< REPLACE WITH YOUR SERVER ESP8266's ACTUAL IP
     # If running server and client on the same ESP8266 for testing, you might use its own IP.
     # Or, if your MicroPython port supports loopback well:
-    # testServerIp = '127.0.0.1' 
+    testServerIp = '127.0.0.1' 
     
     testServerPort = DEFAULT_DNS_SERVER_PORT
 
